@@ -39,7 +39,7 @@ export default {
   },
   methods: {
     async sendPrompt() {
-      const response = await fetch(HOST + PORT + "/api/generate", {
+      const response = await fetch(HOST + ":" + PORT + "/api/generate", {
         method: "POST",
         body: JSON.stringify({
           "model": MODEL,
