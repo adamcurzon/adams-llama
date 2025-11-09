@@ -1,5 +1,7 @@
 # adams-llama
 
+Ollama front end written in Vue
+
 ## Project setup
 ```
 npm install
